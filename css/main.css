@@ -1,20 +1,39 @@
+html * {
+    margin:0px;
+}
 nav {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top:0px;
+    align-items: center;
+    height: 78px;
+    width: 500px;
+    font-size: 15px;
+    line-height: 1.4em;
+    font-family: raleway, sans-serif;
+}
 
+a {
+    text-decoration: none;
+
+    
 }
 
 #home {
+    height: 750px;
+    background: url('../images/temescal-box-heather.png');
+    background-size: cover;
+    background-position: center;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
     
 }
-#about {
 
-}
-#specialties {
+#about {}
 
-}
-#services {
+#specialties {}
 
-}
-#success {
+#services {}
 
-}
-
+#success {}
