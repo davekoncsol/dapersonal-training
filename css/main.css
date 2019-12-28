@@ -1,8 +1,13 @@
 html * {
     margin:0px;
     color:white;
+    
+}
+html {
+        
 }
 nav {
+    z-index: 1;
     display: flex;
     justify-content: space-around;
     position: sticky;
@@ -13,6 +18,7 @@ nav {
     font-size: 15px;
     line-height: 1.4em;
     font-family: raleway, sans-serif;
+    
 }
 
 a {
@@ -22,12 +28,15 @@ a {
 }
 
 #home {
+    
+    
     height: 750px;
     background: url('../images/temescal-box-heather.png');
     background-size: cover;
     background-position: center;
     background-position-y: -10px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 
@@ -81,7 +90,7 @@ a {
     background:url('../images/Site\ Files/weights.jpg');
     background-size: cover;
     display: flex;
-    
+    background-attachment: fixed;
     justify-content: space-evenly;
     align-items: center;
  
@@ -106,6 +115,11 @@ a {
 }
 
 
-#services {}
+#services {
+    height: 680px;
+    background: url('../images/Site\ Files/barbell.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 #success {}
