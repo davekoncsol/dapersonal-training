@@ -16,7 +16,7 @@ nav {
 
 a {
     text-decoration: none;
-
+    color:white;
     
 }
 
@@ -28,6 +28,23 @@ a {
     background-position-y: -10px;
     background-repeat: no-repeat;
     
+}
+
+#home h1{
+    
+    display: flex;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 100px;
+    line-height: -3.4px;
+    font-family: lulo-clean-w01-one-bold, sans-serif;
+    color: #FFFFFF;
+    width: 400px;
 }
 
 #about {}
