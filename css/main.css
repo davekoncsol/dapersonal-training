@@ -1,5 +1,6 @@
 html * {
     margin:0px;
+    color:white;
 }
 nav {
     display: flex;
@@ -47,9 +48,31 @@ a {
     width: 400px;
 }
 
-#about {}
+#quote {
+    height: 233px;
+    background-color: #1A1A1A;
+}
 
-#specialties {}
+#about {
+    height: 731px;
+    background-color: #1A1A1A;
+    display: flex;
+}
+
+#about p {
+    width: 375px;
+}
+
+#about img{
+    height: 700px;
+}
+
+#specialties {
+    height: 595px;
+    background:url('../images/Site\ Files/weights.jpg');
+    background-size: cover;
+}
+
 
 #services {}
 
