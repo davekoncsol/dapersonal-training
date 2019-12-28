@@ -51,6 +51,13 @@ body {
     
 }
 
+#home div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-270px, 80px);
+}
+
 #home h1{
     
     display: flex;
