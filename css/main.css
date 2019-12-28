@@ -26,18 +26,28 @@ a {
     text-decoration: none;
     color:white;
     
+
 }
 
-#home {
-    
-    
-    height: 750px;
+body {
     background: url('../images/temescal-box-heather.png');
     background-size: cover;
     background-position: center;
     background-position-y: -10px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+#home {
+    
+    
+    height: 750px;
+    /* background: url('../images/temescal-box-heather.png');
+    background-size: cover;
+    background-position: center;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
     
 }
 
