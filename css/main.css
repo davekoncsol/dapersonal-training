@@ -114,19 +114,40 @@ body {
     background:url('../images/Site\ Files/weights.jpg');
     background-size: cover;
     display: flex;
+    
     background-attachment: fixed;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    
  
     
 }
 
+
 #specialties img {
     height:100px;
 }
-#row {
+
+#services-image-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#services-image-container .image {
+    height: 250px;
+    width: 250px;
+    background: url('../images/Site\ Files/IMG_1064.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border:solid #E3193A 3px;
+}
+
+#row {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 
 }
